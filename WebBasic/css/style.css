@@ -1,0 +1,65 @@
+/*Neste documento terá um grande fluxo de comentarios para facilitar o entendimento já que tem total cunho didatico*/
+
+/* 
+
+nesse primeiro caso fazemos referencia a tag header e logo em seguida fazer referencia a uma tag filho dela section
+
+display:flex --> Flexbox um conceito que visa organizar os elementos de uma Pagina de forma dinâmica. 
+
+*/
+header > section{
+    display: flex;
+}
+
+
+/* Agora aqui estamos atribuindo as mudanças a todos os tipos label da pagina*/
+label{
+    font-weight:  600;
+    font-size: 14px;
+
+}
+
+
+/* nesse caso usamos o # pois estamos referenciando a um ID, ou seja, a um elemento unico dentro da pagina*/
+#name{
+    flex: 2;
+    max-width: 70%;
+
+}
+
+#nameSearch{
+
+    border-radius: 6px;
+    width: 100%;
+    height: 5vh;
+    margin-top: 8px;
+
+}
+
+#language{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#condition{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-top: 8px;
+
+}
+
+#result{
+    background-color: #ededed;
+
+}
+
+.countResults{
+    padding: 20px 30px 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+
+}

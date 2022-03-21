@@ -1,0 +1,161 @@
+
+<!--Neste documento terá um grande fluxo de comentarios para facilitar o entendimento já que tem total cunho didatico-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Guilherme Duarte Sousa"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <title>Padrões Web</title>
+</head>
+<body>
+    <!--Usaremos a Tag Header para o bloco que faz referencia ao "Cabeçalho"(Top e tudo referente a pesquisa dos desenvolvedores) do Sistema-->
+    <header>
+
+        <h1>Pesquisa de Desenvolvedores</h1>
+
+        <!--Agora vamos criar uma seção para os Elementos do "Cabeçalho" com a tag section-->
+        <section>
+
+            <!--
+
+                Explicações rapidas de Tag e afins
+                Div     -> container generico
+                id      -> nome unico para um elemento(tag)
+                Label   -> Legenda para um Item
+                input   -> Elemento para preencher um campo com um valor antes de ser enviado como formulario
+                type    -> Dentro do input ele diz que tipo de Elemento ele vai se tornar; Exemplos: TextFild, CheckBox, dentre outros.
+
+            -->
+            <div id="name">
+                <label>Por nome</label>
+                <input id="nameSearch" placeholder="Digite aqui... " type="text"/>
+
+            </div>
+
+            <!--
+                nesta div usamos o label como tag que vai englobar um input radio e o Span
+                Obs:
+                um Input do tipo radio só uma das opções pode está marcada, para que o HTML entenda de qual grupo esse radio faz parte
+                é preciso que ambos tenham dentro de si o mesmo nome como no exemplo abaixo
+
+                checked -> esse radio já inicia marcado
+            -->
+            <div id="language">
+                <label>Por Linguagem:</label>
+
+                <div id="condition">
+
+                    <label>
+                        <input id="1" type="radio" name="option" checked/>
+                        <span>E</span>
+                    </label>
+
+                    <label>
+                        <input id="2" type="radio" name="option"/>
+                        <span>OU</span>
+                    </label>
+
+                </div>
+
+            </div>
+
+             <!--
+                nesta Div usaremos o Label igual a Div anterior, a diferença é que o input será do tipo checkbox, e todos teram nomes diferentes
+            -->
+            <div id="languageOptions">
+
+                <label>
+                    <input id="java" name="java" type="checkbox" checked/>
+                    <span>Java</span>
+                </label>
+
+                <label>
+                    <input id="js" name="js" type="checkbox" checked/>
+                    <span>JavaScript</span>
+                </label>
+
+                <label>
+                    <input id="php" name="php" type="checkbox" checked/>
+                    <span>PHP</span>
+                </label>
+                
+                <label>
+                    <input id="python" name="python" type="checkbox" checked/>
+                    <span>Python</span>
+                </label>
+                
+            </div>
+
+        </section>
+
+
+
+    </header>
+
+
+    <!--
+        usaremos a tag section para criar uma seção para os resultados de pesquisa
+
+        class   -> funciona parecido como um ID a diferença é que ele pode servir para referenciar um grupo de elementos 
+        caso eles tenho a mesma clases
+    -->
+    <section class="result">
+
+        <div class="countResults">
+            <span id="countResults"> </span>
+            <span>Resultados</span> 
+        </div>
+
+
+        <!-- Aqui é a construção do nosso primeiro card -->
+        <div>
+
+            <div class="container">
+
+                <div class="card" id="36392ffd-052e-41cf-a3f5-e574bef212b2">
+                    <!-- Div imagem do card-->
+                    <div class="profilePicture">
+                        <img class="image" src="./image/36392ffd-052e-41cf-a3f5-e574bef212b2.jpg" alt="Desenvolvedor"/>
+                    </div>
+
+                    <!-- Div Info do card-->
+                    <div class="profileDescription">
+
+                        <div class="info">
+
+                            <h3 class="card-title" name="username">Ducilema Farias</h3>
+                            <small name="age">53</small>
+                            <small name="mail">dulcilene.farias@example.com</small>
+                            <span name="phone" class="invisible">(31) 9999-1545</span>
+                            <span name="github" class="invisible">https://github.com/greenwolf425</span>
+                            <span name="description" class="invisible">Graduado em Redes de Computadores pela COTEMIG</small>
+                            <span name="descriptionAbility"class="invisible">
+                                Experiências: 
+                                - Mobile
+                                - Análise de Sistemas
+                                - DevOps
+                                - Programação Web
+                                - Adm. de Banco de Dados (DBA)
+                                - Gerência de Projeto
+                            </span>
+                            
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+</body>
+</html>
