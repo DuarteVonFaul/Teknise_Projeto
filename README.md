@@ -13,7 +13,7 @@ Iremos trabalhas nesse treinamento com diversas tecnologias, então vamos separa
 ## 2. Projeto Figma
   
 Usaremos um exemplo apresentado na primeira aula de UX/UI, um projeto de gerenciamente do Desenvolvedores. Nesse projeto teremo uma introdução sobre desenvolvimento web, padrões de projeto, front End, juntamente com a ideia de filtros de pesquisas e gerenciamento de dados.
-O projeto desenvolvido pela equipe da Teknise pode ser visto [aqui](https://www.google.com).
+O projeto desenvolvido pela equipe da Teknise pode ser visto [aqui](https://www.figma.com/file/TuVy8XYd8nei8Pef5jlKIp/Treinamento).
 
 ## 3. Desktop:
 
