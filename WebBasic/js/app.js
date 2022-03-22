@@ -12,7 +12,7 @@ function preRender() {
   }
   
   function updateResults(count) {
-    document.getElementById('countResult').textContent = count
+    document.getElementById('countResults').textContent = count
   }
   
   function filter() {

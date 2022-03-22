@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <title>Padrões Web</title>
 </head>
-<body>
+<body onload="preRender()">
     <!--Usaremos a Tag Header para o bloco que faz referencia ao "Cabeçalho"(Top e tudo referente a pesquisa dos desenvolvedores) do Sistema-->
     <header>
 
@@ -30,7 +30,7 @@
             -->
             <div id="name">
                 <label>Por nome</label>
-                <input id="nameSearch" placeholder="Digite aqui... " type="text"/>
+                <input id="nameSearch" placeholder="Digite aqui... " type="text" oninput="filter()"/>
 
             </div>
 
@@ -48,12 +48,12 @@
                 <div id="condition">
 
                     <label>
-                        <input id="1" type="radio" name="option" checked/>
+                        <input id="1" type="radio" name="option" onchange="filter()" checked/>
                         <span>E</span>
                     </label>
 
                     <label>
-                        <input id="2" type="radio" name="option"/>
+                        <input id="2" type="radio" name="option" onchange="filter()"/>
                         <span>OU</span>
                     </label>
 
@@ -67,22 +67,22 @@
             <div id="languageOptions">
 
                 <label>
-                    <input id="java" name="java" type="checkbox" checked/>
+                    <input id="java" name="java" type="checkbox" onchange="filter()" checked/>
                     <span>Java</span>
                 </label>
 
                 <label>
-                    <input id="js" name="js" type="checkbox" checked/>
+                    <input id="js" name="js" type="checkbox" onchange="filter()" checked/>
                     <span>JavaScript</span>
                 </label>
 
                 <label>
-                    <input id="php" name="php" type="checkbox" checked/>
+                    <input id="php" name="php" type="checkbox" onchange="filter()" checked/>
                     <span>PHP</span>
                 </label>
                 
                 <label>
-                    <input id="python" name="python" type="checkbox" checked/>
+                    <input id="python" name="python" type="checkbox" onchange="filter()" checked/>
                     <span>Python</span>
                 </label>
                 
@@ -653,7 +653,7 @@
     </section>
 
 
-    <script src="./js/app.js"></script>
+    <script src="./js/app.js"></script> 
     
 </body>
 </html>
