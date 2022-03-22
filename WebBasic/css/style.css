@@ -63,3 +63,67 @@ label{
     font-size: 1.3em;
 
 }
+
+.container {
+    display: inline-flex ;
+    flex-direction:  row;
+    flex-wrap: wrap;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    overflow: hidden;
+    max-width: 307px; /*339.25*/
+    height: 114px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 8px;
+    background-color: white;
+}
+
+.invisible{
+    display: none;
+}
+
+.profileDescription {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 5px;
+
+
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.iconLanguage {
+    height: 24px;
+    margin: 0px;
+
+}
+
+h3{
+    color: #333333;
+    flex: none;
+    margin: 0px;
+}
