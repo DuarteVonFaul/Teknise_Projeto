@@ -31,8 +31,21 @@ O projeto desenvolvido pela equipe da Teknise pode ser visto [aqui](https://www.
 - VueJs
 - PHP
 - NodeJS
+<<<<<<< HEAD
 
 ## 6. Autores:
   
 - **Guilherme Duarte Sousa** - [Linkedin](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Github](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Facebook](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/)
 
+=======
+
+## 6. Autores:
+  
+- **Guilherme Duarte Sousa** - [Linkedin](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Github](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Facebook](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/)
+
+
+  
+  
+    
+    
+>>>>>>> 7bda466c0e9a62d0dc828c0e6a9101d758d4f72f
