@@ -35,6 +35,6 @@ O projeto desenvolvido pela equipe da Teknise pode ser visto [aqui](https://www.
 
 ## 6. Autores:
   
-- **Guilherme Duarte Sousa** - [Linkedin](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Github](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Facebook](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/)
+- **Guilherme Duarte Sousa** - [Linkedin](https://www.linkedin.com/in/guilherme-duarte-sousa-53639822b/) | [Github](https://github.com/DuarteVonFaul/) | [Facebook](https://www.facebook.com/DuarteVonFaul/)
 
 =======
