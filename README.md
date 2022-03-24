@@ -9,6 +9,8 @@ Iremos trabalhas nesse treinamento com diversas tecnologias, então vamos separa
 - **WebBasic:** Nessa Pasta trataremos o projeto relacionado as aulas de Padrões Web com HTML, CSS e JavaScript.
 - **VueJS:** Nessa Pasta trataremos o projeto relacionado as aulas de VueCli.  
 - **PHP:** Nessa Pasta trataremos o projeto relacionado as aulas de PHP.
+- **NodeJS** Nessa pasta trataremos o projeto relacionado as aulas de NodeJS
+- **finally** Nessa pasta eu farei um projeto com todo o conhecimento adquirido
 
 ## 2. Projeto Figma
   
